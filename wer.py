@@ -158,6 +158,7 @@ def wer(r, h):
             print " "*(len(r[index])),
     print
     print "WER: "+result    
+    return result
 
 if __name__ == '__main__':
     filename1 = sys.argv[1]
